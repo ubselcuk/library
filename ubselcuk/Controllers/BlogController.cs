@@ -8,5 +8,10 @@ namespace ubselcuk.Controllers
         {
             return View();
         }
+
+        public IActionResult AboutThisWebsite()
+        {
+            return View("Post/AboutThisWebsite");
+        }
     }
 }
